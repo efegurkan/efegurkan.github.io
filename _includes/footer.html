@@ -1,6 +1,8 @@
 <footer class="footer">
-  <span class="footer__copyright">&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}. All rights reserved.</span>
-</footer> 
+  <span class="footer__copyright">&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}. All rights reserved. Theme: Jekyll-Uno.</span>
+  <span class="footer__copyright">This site respects DNT (Do Not Track) requests.</span>
+
+</footer>
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script type="text/javascript" src="{{ "js/main.js" | prepend: site.baseurl }}"></script>
@@ -12,6 +14,9 @@
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
   ga('create', '{{ site.google_analytics }}', 'auto');
+  ga('require', 'dnt');
+  ga('set', 'forceSSL', true);
   ga('send', 'pageview');
 </script>
+<script async src="//storage.googleapis.com/outfox/dnt_min.js"></script>
 {% endif %}
