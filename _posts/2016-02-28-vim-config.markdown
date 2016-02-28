@@ -8,7 +8,7 @@ tags: ["vim", "config", "dotfiles"]
 
 Merhaba,
 
-So this is the story of how it is started and going on. So lets start with the
+So this is the story of how it started and how it is going on. So lets start with the
 story part.
 
 I currently do develop web apps as my daily job. Before that I worked on
