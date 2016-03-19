@@ -6,6 +6,7 @@ description: 'Human being with an engineering degree. Graduated from Ege
 url: 'efegurkan.github.io'
 baseurl: '/'
 google_analytics: 'UA-72808756-1'
+# disqus_shortname: 'your-disqus-name'
 
 author:
   name: 'Efe Gürkan YALAMAN'
@@ -14,12 +15,20 @@ author:
   github_username: efegurkan
   linkedin_username: efegurkanyalaman
 
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
 # Build settings
 destination: _site
 paginate: 10
 permalink: /:year/:title/
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 
 kramdown:
   # use Github Flavored Markdown
@@ -27,4 +36,5 @@ kramdown:
   # do not replace newlines by <br>s
   hard_wrap: false
 
+gems: ['jekyll-paginate']
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
