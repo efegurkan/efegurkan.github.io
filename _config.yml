@@ -1,12 +1,10 @@
 # Site settings
 title: 'Efe Gürkan YALAMAN'
-description: 'Human being with an engineering degree. Graduated from Ege
-  University. Frontend Software Engineer at Linovi. Loves C++. Free Software
-  Enthusiast. ♥ Izmir.'
-url: 'efegurkan.github.io'
-baseurl: '/'
-google_analytics: 'UA-72808756-1'
-# disqus_shortname: 'your-disqus-name'
+description: 'Human being with an engineering degree. Ege University graduate.
+  Javascript Developer, Software Engineer at trivago. Previously Linovi. Loves
+  C++. Free Software Enthusiast. ♥ Izmir.'
+url: 'http://efegurkan.github.io'
+baseurl: ''
 
 author:
   name: 'Efe Gürkan YALAMAN'
@@ -30,11 +28,15 @@ permalink: /:year/:title/
 markdown: kramdown
 highlighter: rouge
 
+sass:
+    sass_dir: _sass
+    style: compressed
+
 kramdown:
   # use Github Flavored Markdown
   input: GFM
   # do not replace newlines by <br>s
   hard_wrap: false
 
-gems: ['jekyll-paginate']
+plugins: ['jekyll-paginate']
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
