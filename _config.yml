@@ -1,15 +1,14 @@
 # Site settings
 title: 'Efe Gürkan YALAMAN'
 description: 'Human being with an engineering degree. Ege University graduate.
-  Javascript Developer, Software Engineer at trivago. Previously Linovi. Loves
-  C++. Free Software Enthusiast. ♥ Izmir.'
+  Software Engineer at Elastic. Previously Autodesk, trivago, Linovi. Loves
+  Rust, C++. Free Software Enthusiast. ♥ Izmir.'
 url: 'http://efegurkan.github.io'
 baseurl: ''
 
 author:
   name: 'Efe Gürkan YALAMAN'
   email: efeyalaman@gmail.com
-  twitter_username: efegurkan
   github_username: efegurkan
   linkedin_username: efegurkanyalaman
 
