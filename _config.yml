@@ -26,6 +26,7 @@ paginate: 10
 permalink: /:year/:title/
 markdown: kramdown
 highlighter: rouge
+future: true
 
 sass:
     sass_dir: _sass
